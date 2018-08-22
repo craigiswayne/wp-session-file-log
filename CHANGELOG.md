@@ -1,1 +1,3 @@
-# 2018-08-22 - Initial Commit
+# 2018-08-22
+* Initial Commit
+* Initialized as composer package
