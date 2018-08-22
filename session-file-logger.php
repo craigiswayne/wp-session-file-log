@@ -7,7 +7,7 @@
  * Author URI:      https://github.com/craigiswayne
  * Text Domain:     session-file-logger
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.0.2
  *
  * @package         Session_File_Logger
  */
