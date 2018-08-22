@@ -1,7 +1,7 @@
 {
   "name": "craigiswayne/wp-session-file-logger",
   "description": "Create a log based on your current session",
-  "type": "wordpress-plugin",
+  "type": "composer-plugin",
   "keywords": [
     "composer",
     "wordpress",
@@ -19,5 +19,7 @@
   "minimum-stability": "stable",
   "require": {
     "php": ">=5.4"
-  }
+  },
+  "autoload": {},
+  "extra": {}
 }
