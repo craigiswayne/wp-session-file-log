@@ -1,23 +1,23 @@
 {
-    "name": "craigiswayne/wp-session-file-logger",
-    "description": "Create a log based on your current session",
-    "type": "wordpress-plugin",
-    "keywords": [
-        "composer",
-        "wordpress",
-        "session",
-        "log",
-        "development"
-    ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Craig Wayne",
-            "email": "craigiswayne@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {
-        "php": ">=5.4"
+  "name": "craigiswayne/wp-session-file-logger",
+  "description": "Create a log based on your current session",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "composer",
+    "wordpress",
+    "session",
+    "log",
+    "development"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Craig Wayne",
+      "email": "craigiswayne@gmail.com"
     }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4"
+  }
 }
