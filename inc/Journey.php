@@ -1,14 +1,14 @@
 <?php
-namespace Splinter;
+namespace Splinter\WP;
 
 /**
- * Class File_Logger
+ * Class Journey
  *
- * @usage   do_action( 'Splinter\File_Logger\log', 'Your Log Entry Title', 'Your Log Entry Description' );
+ * @usage   do_action( 'Splinter\WP\Journey\log', 'Your Log Entry Title', 'Your Log Entry Description' );
  *
- * @package Splinter
+ * @package Splinter\WP\Journey
  */
-class File_Logger{
+class Journey{
 	
 	const PREFIX     = "splinter-file-logger";
 	const LOG_FORMAT = 'html';
@@ -228,14 +228,14 @@ class File_Logger{
 }
 
 /**
- * usage: do_action( 'Splinter\File_Logger\log', $args );
+ * usage: do_action( 'Splinter\WP\Journey\log', $args );
  */
-add_action( __NAMESPACE__.'\File_Logger\title', ['\Splinter\File_Logger','primary'], 15, 2 );
-add_action( __NAMESPACE__.'\File_Logger\primary', ['\Splinter\File_Logger','primary'], 15, 2 );
-add_action( __NAMESPACE__.'\File_Logger\log', ['\Splinter\File_Logger','log'], 15, 2 );
-add_action( __NAMESPACE__.'\File_Logger\info', ['\Splinter\File_Logger','info'], 15, 2 );
-add_action( __NAMESPACE__.'\File_Logger\error', ['\Splinter\File_Logger','error'], 15, 2 );
-add_action( __NAMESPACE__.'\File_Logger\warn', ['\Splinter\File_Logger','warn'], 15, 2 );
-add_action( __NAMESPACE__.'\File_Logger\debug', ['\Splinter\File_Logger','debug'], 15, 2 );
-add_action( __NAMESPACE__.'\File_Logger\success', ['\Splinter\File_Logger','success'], 15, 2 );
-add_action( __NAMESPACE__.'\File_Logger\log_all_globals', ['\Splinter\File_Logger','log_all_globals'], 15, 2 );
+add_action( __NAMESPACE__.'\Journey\title', ['\Splinter\WP\Journey','primary'], 15, 2 );
+add_action( __NAMESPACE__.'\Journey\primary', ['\Splinter\WP\Journey','primary'], 15, 2 );
+add_action( __NAMESPACE__.'\Journey\log', ['\Splinter\WP\Journey','log'], 15, 2 );
+add_action( __NAMESPACE__.'\Journey\info', ['\Splinter\WP\Journey','info'], 15, 2 );
+add_action( __NAMESPACE__.'\Journey\error', ['\Splinter\WP\Journey','error'], 15, 2 );
+add_action( __NAMESPACE__.'\Journey\warn', ['\Splinter\WP\Journey','warn'], 15, 2 );
+add_action( __NAMESPACE__.'\Journey\debug', ['\Splinter\WP\Journey','debug'], 15, 2 );
+add_action( __NAMESPACE__.'\Journey\success', ['\Splinter\WP\Journey','success'], 15, 2 );
+add_action( __NAMESPACE__.'\Journey\log_all_globals', ['\Splinter\WP\Journey','log_all_globals'], 15, 2 );

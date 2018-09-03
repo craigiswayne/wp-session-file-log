@@ -1,5 +1,5 @@
 {
-  "name": "craigiswayne/wp-session-file-logger",
+  "name": "craigiswayne/wp-journey",
   "description": "Create a log based on your current session",
   "type": "wordpress-plugin",
   "keywords": [
@@ -18,7 +18,8 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": ">=5.4"
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "^4.0"
   },
   "autoload": {},
   "extra": {}

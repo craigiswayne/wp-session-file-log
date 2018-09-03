@@ -2,7 +2,7 @@
 /**
  * Class SampleTest
  *
- * @package Session_File_Log
+ * @package Splinter\WP\Journey
  */
 
 /**
